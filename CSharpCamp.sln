@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCamp", "CSharpCamp\CSharpCamp.csproj", "{2B37B89F-DA4A-446F-85E8-52DEA366AAF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{CDCE56B2-13B1-4255-B797-4ACE1A94E530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{219462C3-12BD-45B9-AED9-8537E597C3F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2B37B89F-DA4A-446F-85E8-52DEA366AAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B37B89F-DA4A-446F-85E8-52DEA366AAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B37B89F-DA4A-446F-85E8-52DEA366AAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCE56B2-13B1-4255-B797-4ACE1A94E530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCE56B2-13B1-4255-B797-4ACE1A94E530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCE56B2-13B1-4255-B797-4ACE1A94E530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCE56B2-13B1-4255-B797-4ACE1A94E530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219462C3-12BD-45B9-AED9-8537E597C3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219462C3-12BD-45B9-AED9-8537E597C3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219462C3-12BD-45B9-AED9-8537E597C3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219462C3-12BD-45B9-AED9-8537E597C3F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
