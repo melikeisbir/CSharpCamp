@@ -8,13 +8,11 @@ namespace OOP3
 {
     public class BasvuruManager
     {
-        public void BasvuruYap(IKrediManager krediManager)
+        //method injection
+        public void BasvuruYap(IKrediManager krediManager, ILoggerService loggerService)
         {
-            //KonutKrediManager konutKrediManager = new KonutKrediManager(); // Tüm basvurular konutkredisine bagımlı oldu
-            //konutKrediManager.Hesapla();
-            //Console.WriteLine();
-
             krediManager.Hesapla();
+            loggerService.Log();
         }
         public void KrediOnBilgilendirme(List<IKrediManager> krediler) //birden fazla kredinin hesabı için
         {
